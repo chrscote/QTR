@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url('images/main-bg.gif') repeat-x;
+	background-color: #0000FF;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: "Aharoni", Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	font-weight: normal;
+	text-align:center;
+	color: #FF0000;
+	text-transform: uppercase;
+	margin: 0px;
+	padding: 0px;
+}
+
+.toolName {
+	font-size:90%;
+	text-align:center;
+}
+
+a:link {
+	color: #009900;
+	text-decoration: underline;
+}
+
+a:vistited {
+	color: #000099;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+hr {
+	color: #999999;
+	background-color: #999999;
+	height: 3px;
+}
+
+p {
+	line-height: 150%;
+}
+
+
+.form {
+	border: 1px solid #000099;
+	background-color: #F4F4F4;
+	color: #000099;
+	font-size: 110%;
+	padding: 5px;
+}
+
+input.contact {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight:normal;
+}
+
+TEXTAREA {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+}
+
+.small {
+	font-size: 70%;
+}
+
+/****************************  LAYOUT STUFF *****************************/
+#container {
+	width: 770px;
+	background: url('images/mid-bg.gif') repeat-y;
+	margin: 0 auto;
+	height: auto;
+}
+
+#hdr {
+	width: 385px;
+	margin: 0 auto;
+	height: 98px;
+}
+
+#logoHolder {
+	width: 295px;
+	height: 100px;
+	float: left;
+}
+
+
+#content {
+	width: 700px;
+	margin: 0px auto;
+	clear: both;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+#footer {
+	width: 726px;
+	height: 60px;
+	background: url('images/footer-bg.gif') repeat-x bottom #000000;
+	margin: 0 auto;
+	font-size: 14px;
+	padding: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	border-left: 2px solid #FFFF00;
+	border-right: 2px solid #FFFF00;
+	border-bottom: 2px solid #FFFF00;
+}
+
+#footer a:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#footer a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #5555FF;
+	text-decoration: none;
+}
+
+#footer a:active {
+	color: #5555FF;
+	text-decoration: none;
+}
+/***************************   MENU    **************************************/
+
+#nav-menu {
+	width: 385px;
+	margin: 0px auto;
+	padding-top: 10px;
+	float:left;
+}
+
+#nav-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav-menu li {
+	float: left;
+	margin: 0px;
+}
+
+#nav-menu li a {
+	background: url('images/QTR_Menu_Mid.gif');
+	line-height: 2em;
+	float: left;
+	width: 137px;
+	height: 45px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#nav-menu li a:hover {
+	background: url('images/QTR_Menu_Mid_RO.gif');
+	line-height: 2em;
+	float: left;
+	width: 137px;
+	height: 45px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#nav-menu li a.left {
+	background: url('images/QTR_Menu_Left.gif');
+	line-height: 2em;
+	float: left;
+	width: 109px;
+	height: 45px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#nav-menu li a:hover.left {
+	background: url('images/QTR_Menu_Left_RO.gif');
+	line-height: 2em;
+	float: left;
+	width: 109px;
+	height: 45px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#nav-menu li a.right {
+	background: url('images/QTR_Menu_Right.gif');
+	line-height: 2em;
+	float: left;
+	width: 139px;
+	height: 45px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#nav-menu li a:hover.right {
+	background: url('images/QTR_Menu_Right_RO.gif');
+	line-height: 2em;
+	float: left;
+	width: 139px;
+	height: 45px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+/* Hide from IE5-Mac \*/
+#nav-menu li a {
+	float: none
+}
